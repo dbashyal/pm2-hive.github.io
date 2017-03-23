@@ -82,7 +82,7 @@ apps:
     instances: 4
     exec_mode: cluster
   - script : ./worker.js
-    name   : 'worker'
+    name   : 'worker-app'
     watch  : true
     env    :
       NODE_ENV: development
